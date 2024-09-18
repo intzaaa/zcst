@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 box-border p-0;
+}
+
+.galley > :first-child {
+  opacity: 0 !important;
+}
+
+.galley > :last-child {
+  opacity: 0 !important;
+}
+
+.standard-width {
+  @apply w-full max-w-[1200px];
+}
+
+section {
+  @apply py-8;
+}
